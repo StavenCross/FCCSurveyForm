@@ -1,0 +1,51 @@
+body {
+    font-family:"Segoe UI",Arial;
+    background-color:#a9d7d1;
+    font-size:22px;
+}
+
+#surveyContainer {
+    width:900px;
+    background-color:#FFF;
+    border-radius:5px;
+    padding-top:50px;
+    padding-bottom:50px;
+    margin:0 auto;
+}
+#surveyForm {
+    border-collapse:separate;
+    border-spacing:10px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+#description {
+    text-align: center;
+    padding-bottom:20px;
+}
+h1 {
+    text-align: center;
+}
+input[type="text"],input[type="email"],input[type="number"],select,textarea {
+    padding:10px;
+    border:1px solid gray;
+}
+#submit {
+    border:none;
+    background-color:lightskyblue;
+    color:white;
+    border-radius:5px;
+    padding:15px 20px 15px 20px;
+    font-size:22px;
+}
+td {
+    margin-bottom:20px;
+}
+.key {
+    width:300px;
+    text-align:right;
+}
+.submitButtonContainer {
+    text-align:center;
+}
